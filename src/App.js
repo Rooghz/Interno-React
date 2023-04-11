@@ -7,6 +7,7 @@ import Project from './components/Project';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Props/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
