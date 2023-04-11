@@ -1,14 +1,11 @@
 import React from 'react';
+import Banner from './Props/Banner';
+import Banner2 from '../Assets/Banner2.jpg';
 
 function Services() {
     return (
-        <div>
-            <h1>Services</h1>
-            <p>You can reach us at:</p>
-            <ul>
-                <li>Email: info@ourcompany.com</li>
-                <li>Phone: 555-1234</li>
-            </ul>
+        <div >
+            <Banner name="Services" des="Home / Services" img={Banner2} />
         </div>
     );
 }

@@ -1,14 +1,12 @@
 import React from 'react';
+import Banner from './Props/Banner';
+import Banner1 from '../Assets/Banner1.jpg'
+
 
 function Contact() {
     return (
-        <div>
-            <h1>Contact Us</h1>
-            <p>You can reach us at:</p>
-            <ul>
-                <li>Email: info@ourcompany.com</li>
-                <li>Phone: 555-1234</li>
-            </ul>
+        <div >
+            <Banner name="Contact Us" des="Home / Contact" img={Banner1} />
         </div>
     );
 }

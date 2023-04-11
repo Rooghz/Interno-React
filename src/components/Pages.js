@@ -1,10 +1,11 @@
 import React from 'react';
+import Banner from './Props/Banner';
+import banner from '../Assets/banner.jpg';
 
 function Pages() {
     return (
         <div>
-            <h1>Pages</h1>
-            <p>We are a team of experts in web development and design.</p>
+            <Banner name="Restricted Page" des="Home / Restricted Page" img={banner} />
         </div>
     );
 }
