@@ -1,13 +1,251 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Logo */
+
+.Logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 10px;
+}
+
+.Logo img {
+  width: 34px;
+  height: 34px;
+  left: 0px;
+  top: 8px;
+}
+
+.Logo span {
+  width: 133px;
+  height: 50px;
+  left: 44px;
+  top: 0px;
+
+  font-family: "DM Serif Display";
+  color: #292f36;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  padding: 0px;
+  gap: 399px;
+  width: 1200px;
+  height: 50px;
+  left: 360px;
+  margin-top: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 31px;
+}
+
+.nav-item {
+  margin-right: 31px;
+  text-decoration: none;
+  color: #292f36;
+}
+
+.Menubar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  width: 572px;
+  height: 25px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Jost";
+  color: #292f36;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}
+
+.search {
+  width: 21px;
+  height: 21px;
+
+  opacity: 0.8;
+}
+
+/* Home */
+
+.Home {
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 45px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  text-align: left;
+  margin-left: 100px;
+  width: 35%;
+}
+
+.s-t {
+  width: 567px;
+  height: 150px;
+  font-family: "DM Serif Display";
+  color: #292f36;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 100%;
+}
+
+.s-p {
+  width: 553px;
+  height: 66px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 48px;
+  gap: 10px;
+  width: 219.14px;
+  height: 75px;
+  background: #292f36;
+  box-shadow: 0px 10px 20px 0px #c0c0c059;
+  border-radius: 18px;
+}
+
+.Button span {
+  color: #ffffff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 125%;
+}
+
+.Button img {
+  width: 15.14px;
+  height: 13.18px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 52px;
+  width: 100%;
+  height: 225px;
+  margin-top: 90px;
+}
+
+.section h2 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #292f36;
+  line-height: 25%;
+}
+
+.section p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  width: 80%;
+}
+
+.section a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #4d5053;
+  padding: 0px;
+  gap: 12px;
+  width: 120.14px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15%;
+}
+
+.Section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.home-section {
+  display: flex;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-call {
+  display: flex;
 }
