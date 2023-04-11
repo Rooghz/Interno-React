@@ -3,6 +3,7 @@ import Background from '../Assets/Background.jpg';
 import Callicon from '../Assets/Call Icon.svg';
 import Section from './Props/Section.js';
 import Content from './Props/Content.js';
+import About from '../Assets/About.png'
 
 function Home() {
     return (
@@ -42,20 +43,25 @@ function Home() {
                 />
             </div>
             <div className='About'>
-                <div>
+                <div className='About-post'>
                     <Content
                         title="We Create The Art Of Stylish Living Stylishly"
+                        titleClass="about-title-class"
                         description="It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal."
+                        descriptionClass="about-des-class"
                         hideButton={true}
                     />
                     <div className='about-call'>
-                        <img src={Callicon} alt="Call Icon" />
+                        <img className='call' src={Callicon} alt="Call Icon" />
                         <div className='about-text'>
                             <span>012345678</span>
-                            <span>Call Us Anytime</span>
+                            <p>Call Us Anytime</p>
                         </div>
                     </div>
-                    <Content name="Get Free Estimate" />
+                    <Content name="Get Free Estimate" descriptionClass="about-des-class" buttonClass="about-bt-class" />
+                </div>
+                <div className='about-img'>
+                    <img src={About} alt="About" />
                 </div>
             </div>
 
