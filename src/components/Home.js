@@ -25,7 +25,7 @@ import Blogcontent from './Props/Blogcontent';
 import Blog1 from '../Assets/Blog-1.jpg';
 import Job from './Props/Job';
 import Arrow from '../Assets/Arrow.svg';
-import Footer from './Props/Footer';
+
 
 function Home() {
     return (
@@ -47,21 +47,21 @@ function Home() {
                     title="Project Plan"
                     description="There are many variations of the passages of lorem Ipsum from 
                     available, majority."
-                    link="/section1"
+                    link="/services"
                 />
 
                 <Section
                     title="Interior Work"
                     description="There are many variations of the passages of lorem Ipsum from 
                     available, majority."
-                    link="/section2"
+                    link="/services"
                 />
 
                 <Section
                     title="Realization"
                     description="There are many variations of the passages of lorem Ipsum from 
                     available, majority."
-                    link="/section3"
+                    link="/services"
                 />
             </div>
             <div className='About'>
@@ -137,21 +137,22 @@ function Home() {
                         It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.
                     </p>
                 </div>
-                <div className="flex flex-wrap gap-x-0 proj">
-                    <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 p-0">
+                <div className="flex flex-wrap justify-between pros">
+                    <div>
                         <Project image={p1} name="Modern Kitchen" description="Decor / Artchitecture" buttonText={bt} />
                     </div>
-                    <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 p-0">
+                    <div>
                         <Project image={p2} name="Modern Kitchen" description="Decor / Artchitecture" buttonText={bt} />
                     </div>
-                    <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 p-0">
+                    <div>
                         <Project image={p3} name="Modern Kitchen" description="Decor / Artchitecture" buttonText={bt} />
                     </div>
-                    <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 p-0">
+                    <div>
                         <Project image={p4} name="Modern Kitchen" description="Decor / Artchitecture" buttonText={bt} />
                     </div>
                 </div>
             </div>
+
 
             <div className='Counter'>
                 <Counter
@@ -177,7 +178,7 @@ function Home() {
             <div className='Blog-Section'>
                 <div className='Project-title blog-title'>
                     <span>
-                        Follow Our Projects
+                        Articles & News
                     </span>
                     <p>
                         It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.
@@ -208,7 +209,7 @@ function Home() {
                 <Job img={Arrow} />
             </div>
             <div className='Footer-Home'>
-                <Footer />
+
             </div>
         </div >
     );

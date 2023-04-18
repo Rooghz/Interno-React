@@ -9,8 +9,8 @@ function Project(props) {
                     <h3>{props.name}</h3>
                     <p>{props.description}</p>
                 </div>
-                <div className="ml-82">
-                    <img src={props.buttonText} alt="button" />
+                <div className="ml-36 btw">
+                    <a href="/project"><img src={props.buttonText} alt="button" /></a>
                 </div>
             </div>
         </div>

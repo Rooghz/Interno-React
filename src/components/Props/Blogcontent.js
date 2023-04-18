@@ -11,7 +11,7 @@ function Blogcontent(props) {
                     </div>
                     <div className="flex des-blog">
                         <p>{props.description}</p>
-                        <button><img src={props.btn} alt="button" /></button>
+                        <a href="/blog"><button><img src={props.btn} alt="button" /></button></a>
                     </div>
                 </div>
             </div>

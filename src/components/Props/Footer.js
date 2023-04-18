@@ -21,12 +21,12 @@ function Footer(props) {
                         </span>
                     </div>
                     <div className='social'>
-                        <img src={Fb} alt="fb" />
-                        <img src={Tw} alt="Tw" />
-                        <img src={Ln} alt="Ln" />
-                        <img src={Inst} alt="Inst" />
+                        <a href="https://facebook.com"><img src={Fb} alt="fb" /></a>
+                        <a href="https://twitter.com"><img src={Tw} alt="Tw" /></a>
+                        <a href="https://linkedin.com"><img src={Ln} alt="Ln" /></a>
+                        <a href="https://instagram.com"><img src={Inst} alt="Inst" /></a>
                     </div>
-                </div>
+                </div >
                 <div className='Footer-Second'>
                     <span>Pages</span>
                     <p>About Us</p>
@@ -53,7 +53,7 @@ function Footer(props) {
             <div>
                 <span className='copyright'>Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</span>
             </div>
-        </div>
+        </div >
     );
 }
 

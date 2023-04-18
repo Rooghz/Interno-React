@@ -8,10 +8,10 @@ function Content(props) {
             <span className={`s-p ${props.descriptionClass}`}>{props.description}</span>
             {
                 props.hideButton !== true && (
-                    <button className={`Button ${props.buttonClass}`}>
+                    <a href="/contact"> <button className={`Button ${props.buttonClass}`}>
                         <span>{props.name}</span>
                         <img src={Vector} alt="Button" />
-                    </button>
+                    </button></a>
                 )
             }
         </div >
