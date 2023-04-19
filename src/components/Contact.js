@@ -140,8 +140,8 @@ function Contact() {
                                 />
                             </div>
 
-                            <div className="flex justify-end mb-6">
-                                <button className="contact-btn hover:bg-blue-700" type="submit"><span>Send Now</span><img src={Vector} alt="vector" /></button>
+                            <div className="flex justify-end mb-6 mt-6">
+                                <button className="mt-6 contact-btn hover:bg-blue-700" type="submit"><span>Send Now</span><img src={Vector} alt="vector" /></button>
                             </div>
 
                         </form>

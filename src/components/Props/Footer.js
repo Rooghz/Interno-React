@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from "../../Assets/Logo.svg";
 import Fb from "../../Assets/fb.svg";
 import Tw from "../../Assets/tw.svg";
@@ -29,19 +30,19 @@ function Footer(props) {
                 </div >
                 <div className='Footer-Second'>
                     <span>Pages</span>
-                    <p>About Us</p>
-                    <p>Our Projects</p>
-                    <p>Our Team</p>
-                    <p>Contact Us</p>
-                    <p>Services</p>
+                    <Link to="/about"><p>About Us</p></Link>
+                    <Link to="/project"><p>Our Projects</p></Link>
+                    <Link to="/team"><p>Our Team</p></Link>
+                    <Link to="/contact"><p>Contact Us</p></Link>
+                    <Link to="/services"><p>Services</p></Link>
                 </div>
                 <div className='Footer-Second'>
-                    <span>Services</span>
-                    <p>Kitchen</p>
-                    <p>Living Area</p>
-                    <p>Bathroom</p>
-                    <p>Dinning Hall</p>
-                    <p>Bedroom</p>
+                    <Link to="/services"><span>Services</span></Link>
+                    <Link to="/services"><p>Kitchen</p></Link>
+                    <Link to="/services"> <p>Living Area</p></Link>
+                    <Link to="/services"><p>Bathroom</p></Link>
+                    <Link to="/services"> <p>Dinning Hall</p></Link>
+                    <Link to="/services"> <p>Bedroom</p></Link>
                 </div>
                 <div className='Footer-Second'>
                     <span>Contact</span>

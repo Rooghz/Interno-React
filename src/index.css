@@ -887,7 +887,7 @@ nav {
   padding: 41px 80px;
   gap: 10px;
   position: absolute;
-  width: 524px;
+  width: 544px;
   height: 178px;
   left: 708px;
   top: 239px;
@@ -1581,4 +1581,144 @@ input#password {
   font-size: 16px;
   line-height: 24px;
   background: #f4f0ec;
+}
+
+.About-s-1 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.About-s-2 {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.About-h span {
+  width: 45px;
+  height: 62px;
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.About-h h3 {
+  width: 751px;
+  height: 132px;
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.About-h p {
+  width: 209px;
+  height: 39.25px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.a-b-class {
+  margin-top: 40px;
+}
+
+.a-d-class {
+  margin-top: 40px;
+  width: 500px;
+  height: 132px;
+}
+
+.About-s-3 {
+  height: 868px;
+  background: #f4f0ec;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.a-s-3-text span {
+  width: 547px;
+  height: 126px;
+  left: 326.6px;
+  top: 0px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.About-s-4 {
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.About-s-4 > span {
+  width: 600px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.form-wid {
+  width: 100%;
+  height: 380px;
+}
+
+.prof {
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 110px;
+  margin-right: 110px;
 }

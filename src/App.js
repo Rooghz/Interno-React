@@ -8,6 +8,8 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Props/Footer';
+import About from './components/About';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
         <Footer />
       </div>

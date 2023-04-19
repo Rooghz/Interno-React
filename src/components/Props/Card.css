@@ -1,0 +1,83 @@
+.card-container {
+  perspective: 1000px;
+  display: inline-block;
+  position: relative;
+  width: 300px; /* adjust width as needed */
+  height: 433px; /* adjust height as needed */
+  margin: 10px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.card.hover {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.back span {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  height: 25px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #292f36;
+}
+
+.back p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.card:hover {
+  height: 100%;
+}
+
+.card-container:hover .card .front {
+  transform: rotateY(180deg);
+}
