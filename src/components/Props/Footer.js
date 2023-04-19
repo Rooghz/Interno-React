@@ -37,7 +37,7 @@ function Footer(props) {
                     <Link to="/services"><p>Services</p></Link>
                 </div>
                 <div className='Footer-Second'>
-                    <Link to="/services"><span>Services</span></Link>
+                    <span>Services</span>
                     <Link to="/services"><p>Kitchen</p></Link>
                     <Link to="/services"> <p>Living Area</p></Link>
                     <Link to="/services"><p>Bathroom</p></Link>
